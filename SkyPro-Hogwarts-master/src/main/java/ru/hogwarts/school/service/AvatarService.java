@@ -20,6 +20,7 @@ import java.util.Optional;
 @Service
 @Transactional
 public class AvatarService {
+
     @Value("${avatars.path.dir}")
     String avatarsDir;
 
