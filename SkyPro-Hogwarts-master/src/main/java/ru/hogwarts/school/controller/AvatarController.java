@@ -18,6 +18,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("avatar")
 public class AvatarController {
+
     private final AvatarService avatarService;
 
     public AvatarController(AvatarService avatarService) {

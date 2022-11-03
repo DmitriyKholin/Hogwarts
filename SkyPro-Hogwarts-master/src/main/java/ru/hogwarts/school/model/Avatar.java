@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 public class Avatar {
+
     @Id
     @GeneratedValue
     private Long id;

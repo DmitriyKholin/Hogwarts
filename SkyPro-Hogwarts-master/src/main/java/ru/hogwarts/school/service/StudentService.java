@@ -9,6 +9,7 @@ import java.util.Collection;
 
 @Service
 public class StudentService {
+
     private final StudentRepository studentRepository;
 
     public StudentService(StudentRepository studentRepository) {
